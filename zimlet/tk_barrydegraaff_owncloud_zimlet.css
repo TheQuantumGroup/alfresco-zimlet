@@ -1,0 +1,90 @@
+/*
+This file is part of the Zimbra WebDAV Client
+
+   https://github.com/barrydegraaff/owncloud-zimlet
+
+Copyright (C) 2015-2017  Barry de Graaff, Michele Olivo
+
+Bugs and feedback: https://github.com/barrydegraaff/owncloud-zimlet/issues
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see http://www.gnu.org/licenses/.
+*/
+.ImgownCloud-panelIcon {
+    background: url("icon.png") no-repeat 0 0;
+    width: 16px;
+    height: 16px;
+    overflow: hidden;
+}
+.ImgownCloud-help {
+ background: url("help.png") no-repeat 0 0;
+ width: 18px;
+ height: 18px;
+ overflow: hidden;
+}
+.ImgownCloud-loading {
+ background: url("pixel.png") no-repeat 0 0;
+ width: 18px;
+ height: 18px;
+ overflow: hidden;
+}
+
+.DwtDialog textarea{
+   width:98% !important;
+   font-family: monospace !important;
+}
+
+#owncloud_zimlet_search{
+border-radius:3px;
+}
+
+.owncloud_zimlet_userprefs{
+display: none;
+}
+
+/* Style the tab */
+.tab_owncloud_zimlet {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+.tab_owncloud_zimlet button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 7px 8px;
+    transition: 0.3s;
+    font-size: 14px;
+}
+
+/* Change background color of buttons on hover */
+.tab_owncloud_zimlet button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab_owncloud_zimlet button.active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+.tab_owncloud_zimletcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
