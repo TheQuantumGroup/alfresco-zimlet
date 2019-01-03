@@ -31,7 +31,7 @@ Report security issues to info@barrydegraaff.tk (PGP fingerprint: 97f4694a1d9aed
 
 ### Downloading the automated installer
 
-    wget --no-cache https://raw.githubusercontent.com/Zimbra-Community/owncloud-zimlet/soapServiceBarry/webdav-client-installer.sh -O /tmp/webdav-client-installer.sh
+    wget --no-cache https://raw.githubusercontent.com/TheQuantumGroup/alfresco-zimlet/master/webdav-client-installer.sh -O /tmp/webdav-client-installer.sh
     chmod +rx /tmp/webdav-client-installer.sh
 
 ### Multi server support
